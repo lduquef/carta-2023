@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'NotoSansKorean';
+    src: url('../public/NotoSansKR-Bold.otf') format("opentype")
+    url('../public/NotoSansKR-Medium.otf') format("opentype")
+    url('../public/NotoSansKR-Regular.otf') format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+.NotoSansKorean {
+  font-family: NotoSansKorean;
+}
+
+@font-face{
+  font-family: "Whitelisa";
+  src: url('../public/Whitelisa.ttf') format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+.Whitelisa {
+  font-family: Whitelisa;
+}
+@font-face{
+  font-family: "Photograph Signature";
+  src:  url('../public/Photograph Signature.ttf') format("ttf")
+  
+}
+.Photograph_Signature {
+  font-family: Photograph;
+}
